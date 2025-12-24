@@ -1,17 +1,57 @@
-# React + Vite
+# Image Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Minimal web app to convert images between formats instantly.
 
-Currently, two official plugins are available:
+No signup.  
+No API.  
+Just clean conversions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+👉 https://image-converter-zeta-woad.vercel.app/
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
 
+- Convert images to **PNG / JPG / WEBP**
+- Import **HEIC** photos from iPhone (input only)
+- Drag & drop support
+- Download converted images instantly
+- No authentication
+- No ads
+- No watermarks
+
+---
+
+## 🧠 Tech Stack
+
+- React + Vite
+- Client-side Canvas API
+- heic2any (HEIC → PNG/JPG)
+- Vanilla CSS (Apple-inspired UI)
+- Vercel (static deploy)
+
+---
+
+## 🖥️ How It Works
+
+1. Upload an image or drop it into the app
+2. Image is processed fully in the browser
+3. Selected format is generated using Canvas
+4. Converted image is ready to download instantly
+
+> HEIC images are supported **as input only** due to browser limitations.
+
+---
+
+## 🔒 Privacy
+
+All processing happens **locally in your browser**.  
+No images are uploaded to a server.
+
+---
+
+Built by **@berkindev** as part of **30 Days – 30 Web Apps**.
